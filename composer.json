@@ -1,0 +1,20 @@
+{
+    "name": "blackmoon/sheet_crud",
+    "description": "A PHP library for CRUD operations on Google Sheets\".",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Blackmoon\\SheetCrud\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "e. Choose blackmoon1987"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "google/apiclient": "2.12.1"
+    }
+}
